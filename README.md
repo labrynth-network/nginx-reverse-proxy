@@ -23,7 +23,7 @@ This repository serves as the source of truth for internal and external Nginx re
 
 - Configurations are organized into `internal/` and `external/` based on which proxy they are for
 - Each proxy configuration is organized by environment and application (Ex: `production/app1/`)
-- The actual reverse proxy configuration resides in `<app-name>.<environment>.conf`
+- The actual reverse proxy configuration resides in `<site-name>.conf`
 
 ## Standards & Best Practices
 
