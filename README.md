@@ -29,6 +29,6 @@ This repository serves as the source of truth for internal and external Nginx re
 
 The following standards should be adhered to wherever possible:
 
-- Use HTTPS through the full connection (Client --- HTTPS ---> Proxy --- HTTPS ---> Backend Server Pool) wherever possible, as is recommended in a zero-trust environment
+- Persist TLS through the full connection (Client --- HTTPS ---> Proxy --- HTTPS ---> Backend Server Pool) wherever possible, as is recommended in a zero-trust environment
 - <u>Always</u> redirect HTTP traffic to HTTPS traffic in proxy configurations
 - Use source IP `allow` and `deny` rules in internal proxy configs based on expected sources, as it is harder to implement network access control with Nginx due to every endpoint being served on the same IP
