@@ -14,9 +14,9 @@ This repository serves as the source of truth for internal and external Nginx re
 │   └── conf.d/
 │       ├── production/
 │    	│   ├── app1/
-│   	│   │   └── app1.labrynthnetwork.com
+│   	│   │   └── app1.labrynthnetwork.com.conf
 │   	│   └── app2/
-│   	│       └── app2.labrynthnetwork.com
+│   	│       └── app2.labrynthnetwork.com.conf
 │       └── development/
 └── external/
 ```
